@@ -16,9 +16,21 @@ $('.eleven-slider').slick({
       breakpoint: 940,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         infinite: true,
-      }},]
+  dots: false,
+  arrows: false,
+
+      }}, {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+    dots: false,
+    arrows: false,
+  
+        }}]
 });
 
 
