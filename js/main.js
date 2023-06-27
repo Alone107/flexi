@@ -4,6 +4,17 @@ $('.nine-slider').slick({
   autoplay: true,
   autoplaySpeed: 3000,
   dots: true,
+  responsive: [
+    {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+    dots: false,
+    arrows: false,
+  
+        }}]
 });
 
 $('.eleven-slider').slick({

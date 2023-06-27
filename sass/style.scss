@@ -1020,6 +1020,19 @@ height: 105px;
   z-index: 150;
 }
 
+.wrapper-thank {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.btn-thank-div {
+  margin-bottom: 30px;
+}
+
+
 
 @media (max-width:1270px) {
   .three__inner {
@@ -1282,5 +1295,8 @@ margin-bottom: 10%;
   .header__inner-logo {
     width: 100%;
     height: 55px;
+  }
+  .thank-btn  {
+    font-size: 14px;
   }
  }
